@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    width: 400px;
+    height: 400px;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: solid white 1px;
+}
+
+.mole {
+    background-image: url("/duduge/StarNoseMole.jpg");
+    background-size: cover;
+}
